@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "vf-pt-instruction-following"
+version = "0.1.0"
+description = "Verifiers environment for PT instruction-following with rule-based constraints"
+readme = "README.md"
+dependencies = [
+
+]
+
+
+[project.urls]
+Homepage = "https://verifiers.readthedocs.io/"
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]

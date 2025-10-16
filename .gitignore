@@ -28,6 +28,7 @@ docs/build/
 *.pyc
 .cache/
 *.zip
+*.tar.gz
 nltk_data/
 
 # outputs
